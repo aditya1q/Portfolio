@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
+import { ProjectsData } from './Constants';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -14,42 +14,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 // SwiperCore.use([Navigation]);
-
-const projects = [
-  {
-    id: 1,
-    title: 'TradeSage',
-    Live: 'https://tradesage.in/',
-    description: 'The YouTube Clone project is a web application that replicates the core features and user interface of YouTube. Developed using React for functionality and Tailwind CSS for styling.',
-    img: '../assests/tradesagelogin.png',
-    technologies: ['React', 'Tailwind', 'MUI', 'Recharts', 'Chartjs', 'Sonner', 'Axios', 'Socket'],
-  },
-  {
-    id: 2,
-    title: 'TradeSage',
-    Live: 'https://tradesage.in/',
-    description: 'The YouTube Clone project is a web application that replicates the core features and user interface of YouTube. Developed using React for functionality and Tailwind CSS for styling.',
-    img: '../assests/tradesagelogin.png',
-    technologies: ['React', 'Tailwind'],
-  },
-  {
-    id: 3,
-    title: 'TradeSage',
-    Live: 'https://tradesage.in/',
-    description: 'The YouTube Clone project is a web application that replicates the core features and user interface of YouTube. Developed using React for functionality and Tailwind CSS for styling.',
-    img: '../assests/tradesagelogin.png',
-    technologies: ['React', 'Tailwind'],
-  },
-  {
-    id: 4,
-    title: 'TradeSage',
-    Live: 'https://tradesage.in/',
-    description: 'The YouTube Clone project is a web application that replicates the core features and user interface of YouTube. Developed using React for functionality and Tailwind CSS for styling.',
-    img: '../assests/tradesagelogin.png',
-    technologies: ['React', 'Tailwind'],
-  },
-  // Add more projects here if needed
-];
 
 export default function Projects() {
 
@@ -72,17 +36,24 @@ export default function Projects() {
               nextEl: '.swiper-button-next',
             }}
             scrollbar={{ draggable: true }}
-            // pagination={{ clickable: true }}
-            // onSwiper={(swiper) => console.log(swiper)}
-            // onSlideChange={() => console.log('slide change')}
+          // pagination={{ clickable: true }}
+          // onSwiper={(swiper) => console.log(swiper)}
+          // onSlideChange={() => console.log('slide change')}
           >
-            {projects.map((item) => (
+            {ProjectsData.map((item) => (
               <SwiperSlide key={item.id}>
-                <div className="flex items-center justify-center gap-5 h-[520px] w-[90%] mx-auto text-center text-white shadow-2xl rounded-2xl bg-opacity-75 p-5">
+                <div className="flex flex-col-reverse lg:flex lg:flex-row items-center justify-center gap-5 h-screen lg:w-[90%] w-full mx-auto text-center text-white shadow-2xl rounded-2xl bg-opacity-75 p-5">
                   <div className='flex flex-col items-start justify-start w-[80%] gap-4'>
                     <p className="font-bold text-3xl">{item.title}</p>
-                    <p className="text-[14px] text-start">{item.description}</p>
-                    <div className="flex flex-1 flex-wrap gap-4 w-[70%] rounded-lg">
+                    <ul className="text-start space-y-2 text-sm w-full">
+                      {item.description?.map((point, index) => (
+                        <li className="flex w-full gap-2" key={index}>
+                          <span>•</span>
+                          <p>{point}</p>
+                        </li>
+                      ))}
+                    </ul>
+                    <div className="flex flex-1 flex-wrap gap-4 w-full lg:w-[70%] rounded-lg">
                       {item.technologies.map((tech, index) => (
                         <span key={index} className="bg-blue-500 text-white px-3 py-1 rounded-lg text-sm">
                           {tech}
@@ -95,9 +66,9 @@ export default function Projects() {
                   </div>
                   <Link href={item.Live} legacyBehavior>
                     <a className="flex flex-col items-center text-white rounded-lg w-[80%] text-xs">
-                     <img src={item.img} alt='Project image' className="rounded-lg img-tilt border" />
+                      <img src={item.img} alt='Project image' className="rounded-lg img-tilt border" />
                     </a>
-                  </Link> 
+                  </Link>
                 </div>
               </SwiperSlide>
             ))}

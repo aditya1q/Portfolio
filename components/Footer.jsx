@@ -12,12 +12,12 @@ const Footer = () => {
                 </Link>
                 <footer className="bg-black border-t text-white px-4 py-8">
                     <div className="flex flex-col items-center justify-center">
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-10 ml-32 sm:ml-0">
+                        <div className="grid grid-cols-3 gap-10 mb-10 m:ml-0">
                             <div className="md:col-span-1">
                                 <h2 className="text-sm md:text-lg font-semibold mb-4 flex items-center gap-2"><FaWhatsapp className=' ' />Contact Us</h2>
                                 <ul className="space-y-4 text-sm text-gray-500">
                                     <li className=' flex items-start gap-2'><FaWhatsapp className='icon' />9760746380</li>
-                                    <li className=' flex items-start gap-2'><BiLogoGmail className='icon' />adityatiwari9410@gmail.com</li>
+                                    <li className=' flex items-start gap-2'><BiLogoGmail className='icon' />adityatiwari9410</li>
                                 </ul>
                             </div>
 

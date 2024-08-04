@@ -15,7 +15,7 @@ const Hero = () => {
         <h1 className='text-2xl font-bold animate-fadeIn-3'>Aditya Tiwari</h1>
         <h1 className='font-semibold text-lg'>And I'm <span className='animate-fadeIn-4 font-bold'>FrontEnd Developer</span></h1>
         <p className='desc w-[70%] mdl:w-[50%] text-[15px] font-nunito animate-fadeIn-5'>
-          Welcome to my front-end developer portfolio. I'm a passionate and aspiring front-end developer showcasing my projects and dedication to creating engaging web experiences.
+          Welcome to my Frontend developer portfolio. I'm a passionate and aspiring Frontend developer showcasing my projects and dedication to creating engaging web experiences.
         </p>
         <div className='flex items-center justify-center gap-4'>
           <Link legacyBehavior href='https://www.dropbox.com/scl/fi/m54n9tl9y3zqt6dohj09v/ADITYA-Resume.pdf?rlkey=5x9vkz8o50g0vps7hctkv6d0x&dl=0' className='mt-10'>
