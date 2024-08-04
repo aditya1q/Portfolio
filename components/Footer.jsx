@@ -14,23 +14,23 @@ const Footer = () => {
                     <div className="flex flex-col items-center justify-center">
                         <div className="grid grid-cols-3 gap-10 mb-10 m:ml-0">
                             <div className="md:col-span-1">
-                                <h2 className="text-sm md:text-lg font-semibold mb-4 flex items-center gap-2"><FaWhatsapp className=' ' />Contact Us</h2>
-                                <ul className="space-y-4 text-sm text-gray-500">
-                                    <li className=' flex items-start gap-2'><FaWhatsapp className='icon' />9760746380</li>
-                                    <li className=' flex items-start gap-2'><BiLogoGmail className='icon' />adityatiwari9410</li>
+                                <h2 className="text-sm md:text-lg font-semibold mb-4 flex items-center gap-2"><FaWhatsapp />Contact Us</h2>
+                                <ul className="space-y-1 text-sm text-gray-500">
+                                    <li className=' flex items-center gap-2'><FaWhatsapp className='icon' />9760746380</li>
+                                    <li className=' flex items-center gap-2'><BiLogoGmail className='icon' />adityatiwari9410</li>
                                 </ul>
                             </div>
 
                             <div className="md:col-span-1">
-                                <h2 className="text-sm md:text-lg font-semibold mb-4 flex items-center gap-2"><BiLocationPlus className='' />Permanent Address</h2>
+                                <h2 className="text-sm md:text-lg font-semibold mb-4 flex items-center gap-2"><BiLocationPlus />Permanent Address</h2>
                                 <ul className="space-y-4 text-sm text-gray-500">
-                                    <li className=' md:w-[80%] sm:w-full w-[50%]'>Patel Nagar Dehradun, Pin-248001</li>
+                                    <li className=' md:w-[80%] sm:w-full w-[90%]'>Patel Nagar Dehradun, 248001</li>
                                 </ul>
                             </div>
                             <div className="md:col-span-1">
-                                <h2 className="text-sm md:text-lg font-semibold mb-4 flex items-center gap-2"><BiLocationPlus className='icon' />Current Address</h2>
+                                <h2 className="text-sm md:text-lg font-semibold mb-4 flex items-center gap-2"><BiLocationPlus />Current Address</h2>
                                 <ul className="space-y-4 text-sm text-gray-500">
-                                    <li className=' md:w-[80%] sm:w-full w-[50%]'>Indirapuram, Ghaziabad, pin-201014</li>
+                                    <li className=' md:w-[80%] sm:w-full w-[50%]'>Indirapuram, 201014</li>
                                 </ul>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
                                 <FaWhatsapp className="icon" />
                             </a>
                         </Link>
-                        <Link href='https://github.com/aditya1OG/Websites.git' legacyBehavior>
+                        <Link href='https://github.com/aditya1q' legacyBehavior>
                             <a>
                                 <FaGithub className='icon' />
                             </a>

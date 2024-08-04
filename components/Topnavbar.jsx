@@ -23,7 +23,7 @@ const TopNavbar = () => {
                     </a>
 
                 </Link>
-                <Link href='https://github.com/aditya1OG/Websites.git' legacyBehavior>
+                <Link href='https://github.com/aditya1q' legacyBehavior>
                     <a>
                         <FaGithub className='cursor-pointer' />
                     </a>
