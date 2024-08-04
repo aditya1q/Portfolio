@@ -129,7 +129,7 @@ export const ProjectsData = [
             'Utilized Zustand for global state management',
             'Utilized APIs (Axios) for data connection',
         ],
-        img: '../assests/Finsagelogin.png',
+        img: '../assests/finsagelogin.png',
         technologies: ['Vite', 'Tailwind', 'MUI', 'TradingView Charts', 'Chartjs', 'Sonner', 'Axios', 'Zustand'],
     },
     {
@@ -142,7 +142,20 @@ export const ProjectsData = [
             'Utilized Zustand for global state management',
             'Utilized APIs (Axios) for data connection',
         ],
-        img: '../assests/Worksagelogin.png',
+        img: '../assests/worksagelogin.png',
         technologies: ['Vite', 'Tailwind', 'React-toastify', 'Axios', 'Zustand'],
+    },
+    {
+        id: 4,
+        title: 'Algosage(Under development)',
+        Live: '',
+        description: [
+            'Developed a backoffice system to manage all client information and monitor the performance of trading strategies.',
+            'Displayed data about the number of strategies each client is running, client profits from algorithms, and individual strategy profits and losses.',
+            'Utilized MUI tables to present detailed client and strategy information and implemented Tradingview Lightweight Charts for dynamic data visualization.',
+            'Utilized APIs (Axios) for data connection',
+        ],
+        img: '../assests/algoBacktest.png',
+        technologies: ['Vite', 'Tailwind', 'Tradingview', 'Recharts', 'Axios', 'Zustand'],
     },
 ];

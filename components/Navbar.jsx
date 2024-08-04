@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <div className='w-full'>
-      <nav className="fixed w-[550px] lg:w-full bg-black border-b border-gray-800 shadow-2xl top-0 z-10 ">
+      <nav className="fixed w-[550px] sm:w-full bg-black border-b border-gray-800 shadow-2xl top-0 z-10 ">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link href="/" legacyBehavior>
