@@ -129,7 +129,7 @@ export const ProjectsData = [
             'Utilized Zustand for global state management',
             'Utilized APIs (Axios) for data connection',
         ],
-        img: '../assests/finsagelogin.png',
+        img: '../assests/finsage.png',
         technologies: ['Vite', 'Tailwind', 'MUI', 'TradingView Charts', 'Chartjs', 'Sonner', 'Axios', 'Zustand'],
     },
     {
@@ -142,7 +142,7 @@ export const ProjectsData = [
             'Utilized Zustand for global state management',
             'Utilized APIs (Axios) for data connection',
         ],
-        img: '../assests/worksagelogin.png',
+        img: '../assests/worksage.png',
         technologies: ['Vite', 'Tailwind', 'React-toastify', 'Axios', 'Zustand'],
     },
     {
