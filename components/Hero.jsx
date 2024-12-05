@@ -18,8 +18,8 @@ const Hero = () => {
           Welcome to my Frontend developer portfolio. I'm a passionate and aspiring Frontend developer showcasing my projects and dedication to creating engaging web experiences.
         </p>
         <div className='flex items-center justify-center gap-4'>
-          <Link legacyBehavior href='https://www.dropbox.com/scl/fi/m54n9tl9y3zqt6dohj09v/ADITYA-Resume.pdf?rlkey=5x9vkz8o50g0vps7hctkv6d0x&dl=0' className='mt-10'>
-            <a href='https://www.dropbox.com/scl/fi/m54n9tl9y3zqt6dohj09v/ADITYA-Resume.pdf?rlkey=5x9vkz8o50g0vps7hctkv6d0x&dl=0' className='text-white border rounded-2xl px-3 py-2 flex gap-2 items-center justify-center '>Download CV <AiOutlineCloudDownload className='down-arrow' /></a>
+          <Link legacyBehavior href='https://www.dropbox.com/scl/fi/43lw23v0yqjuuvmw32l0w/AdityaCV.pdf?rlkey=m5rwgcg0n05vx0f74odmon2jx&st=0mvghaos&dl=0' className='mt-10'>
+            <a href='https://www.dropbox.com/scl/fi/43lw23v0yqjuuvmw32l0w/AdityaCV.pdf?rlkey=m5rwgcg0n05vx0f74odmon2jx&st=0mvghaos&dl=0' className='text-white border rounded-2xl px-3 py-2 flex gap-2 items-center justify-center '>Download CV <AiOutlineCloudDownload className='down-arrow' /></a>
           </Link>
           <Link legacyBehavior href="mailto:adityatiwari9410@gmail.com" className='mt-10'>
             <a href="mailto:adityatiwari9410@gmail.com" className='text-white border rounded-2xl px-3 py-2 flex gap-2 items-center justify-center '>Hire Me<FaHireAHelper className='down-arrow' /></a>

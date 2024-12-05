@@ -56,7 +56,7 @@ const About = () => {
       >
         <div className='flex items-center justify-center gap-20 lg:gap-32 flex-col lg:flex-row'>
           <div className='flex items-center'>
-            <img src="/assests/bg.png" alt="" className='image w-96 md:w-[550px] ml-0 lg:ml-24 lg:w-full lgl:w-[80%] 2xl:w-[60%] mb-0 lg:mb-32' />
+            <img src="/assests/bg.png" alt="" className='image w-96 md:w-[550px] ml-0 lg:ml-24 lg:w-full lgl:w-[80%] 2xl:w-[70%] mb-0 lg:mb-32' />
           </div>
           <div className='flex flex-col gap-4 justify-center items-center lg:mr-20'>
             <div className='flex items-center justify-center gap-10 md:flex-row flex-col'>
