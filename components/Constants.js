@@ -107,7 +107,7 @@ export const ProjectsData = [
     {
         id: 1,
         title: 'TradeSage',
-        Live: 'https://tradesage.in/',
+        Live: 'https://tradesage.quanttiphy.com/',
         description: [
             'Built an interactive and user-friendly dashboard for client to track dealer trading statistics.',
             'Played a major role in the development of the frontend using React.js.Focused on Risk Management and Trader Management modules.',
@@ -147,8 +147,8 @@ export const ProjectsData = [
     },
     {
         id: 4,
-        title: 'Algosage(Under development)',
-        Live: '',
+        title: 'Algosage',
+        Live: 'https://backoffice.quanttiphy.com/',
         description: [
             'Developed a backoffice system to manage all client information and monitor the performance of trading strategies.',
             'Displayed data about the number of strategies each client is running, client profits from algorithms, and individual strategy profits and losses.',
