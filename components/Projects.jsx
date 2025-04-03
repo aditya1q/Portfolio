@@ -65,9 +65,9 @@ export default function Projects() {
                     </Link>
                   </div>
                   <Link href={item.Live} legacyBehavior>
-                    <a className="flex flex-col items-center text-white rounded-lg w-[80%] text-xs">
-                      <img src={item.img} alt='Project image' className="rounded-lg img-tilt border" />
-                    </a>
+                    <Link className="flex flex-col items-center text-white rounded-lg w-[65%] text-xs overflow-hidden">
+                      <img src={item.img} alt='Project image' className="rounded-lg img-tilt border max-h-72" />
+                    </Link>
                   </Link>
                 </div>
               </SwiperSlide>

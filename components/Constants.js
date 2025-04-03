@@ -158,4 +158,18 @@ export const ProjectsData = [
         img: '../assests/algoBacktest.png',
         technologies: ['Vite', 'Tailwind', 'Tradingview', 'Recharts', 'Axios', 'Zustand'],
     },
+    {
+        id: 5,
+        title: 'AlgoMonitor',
+        Live: 'http://164.52.195.138:8134/',
+        description: [
+            'Algo & Client Performance: Tracks execution speed, trade success rate, and anomalies.',
+            'API Connections:This monitors API uptime, request failures, and latency.',
+            'Cloud Infrastructure: Checks cloud resource usage, server health, and scaling efficiency.',
+            'Database Latency: Measures query response times and detects bottlenecks.',
+            'Internet Speed & Connectivity: Ensures stable network condition for smooth trade.'
+        ],
+        img: '../assests/heartbeat.png',
+        technologies: ['Vite', 'Tailwind', 'Tradingview', 'shad-cn', 'Axios', 'React-query'],
+    },
 ];
