@@ -14,7 +14,7 @@ const Skills = () => {
           Technologies and languages that I use to make my projects every day
         </h1>
       </div>
-      <div className='mt-10 grid grid-cols-3 md:grid-cols-5 place-items-center gap-16'>
+      <div className='mt-10 grid grid-cols-3 md:grid-cols-7 place-items-center gap-16'>
         <img src="/assests/html.svg" alt="" className=' icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
         <img src="/assests/css.svg" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
         <img src="/assests/javascript.svg" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
@@ -25,6 +25,10 @@ const Skills = () => {
         <img src="/assests/bootstrap.svg" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
         <img src="/assests/postman.svg" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
         <img src="/assests/git.svg" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
+        <img src="/assests/vite.svg" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
+        <img src="/assests/socket.svg" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
+        <img src="/assests/zustand.png" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
+        <img src="/assests/chartjs.png" alt="" className='icon-tilt w-12 sm:w-20 h-12 sm:h-20' />
       </div>
     </div>
   );
