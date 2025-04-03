@@ -156,7 +156,7 @@ export const ProjectsData = [
             'Utilized APIs (Axios) for data connection',
         ],
         img: '../assests/algoBacktest.png',
-        technologies: ['Vite', 'Tailwind', 'Tradingview', 'Recharts', 'Axios', 'Zustand'],
+        technologies: ['Vite', 'Tailwind', 'Tradingview', 'Recharts', 'Axios', 'Zustand', 'React-query'],
     },
     {
         id: 5,
@@ -170,6 +170,6 @@ export const ProjectsData = [
             'Internet Speed & Connectivity: Ensures stable network condition for smooth trade.'
         ],
         img: '../assests/heartbeat.png',
-        technologies: ['Vite', 'Tailwind', 'Tradingview', 'shad-cn', 'Axios', 'React-query'],
+        technologies: ['Vite', 'Tailwind', 'Tradingview', 'shad-cn'],
     },
 ];
